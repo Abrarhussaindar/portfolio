@@ -52,7 +52,7 @@ const HeroSection = () => {
                 </motion.p>
                 <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <Button asChild size="lg" className="w-full sm:w-auto">
-                        <motion.a href="/public/Abrarhussain.pdf"  download="Abrar_Hussain_Dar_Resume.pdf" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                        <motion.a href="/Abrarhussain.pdf"  download="Abrar_Hussain_Dar_Resume.pdf" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                             <Download className="mr-2 h-5 w-5" />
                             Download Resume
                         </motion.a>
