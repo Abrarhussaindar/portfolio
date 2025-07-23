@@ -123,7 +123,7 @@ pnpm dev
 ├── .env.local            # Local environment variables
 ├── tailwind.config.ts    # Tailwind CSS configuration
 └── ...
-
+```
 ## 🚢 Deployment
 
 This portfolio is deployed on **Vercel**, the platform built by the creators of Next.js.
