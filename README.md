@@ -1,6 +1,6 @@
 # Abrar Dar - Developer Portfolio
 
-![Portfolio Screenshot](<!-- Add a link to your screenshot here. E.g., https://i.imgur.com/your-screenshot.png -->)
+![http://http://103.180.236.46:3010/public/hero.png](<!-- Add a link to your screenshot here. E.g., https://i.imgur.com/your-screenshot.png -->)
 
 <!--
 **Pro Tip:** To get a great screenshot:
