@@ -100,10 +100,11 @@ To start the local development server, run:
 
 ```bash
 pnpm dev
-Open http://localhost:3000 in your browser to see the result.
-📁 Project Structure
-The project follows the standard Next.js App Router structure:
-Generated code
+1.  **Clickable Link:** The URL `http://localhost:3000` is now a proper, clickable Markdown link.
+2.  **Section Separator:** I've added a horizontal rule (`---`) to create a clear visual separation between the "Getting Started" section and the "Project Structure" section. This is crucial for readability.
+3.  **Proper Heading:** `Project Structure` is now a proper level-2 heading (`## 📁 Project Structure`), making it stand out as a major section.
+4.  **Code Block for Structure:** The ASCII tree diagram is now wrapped in a code block (```text ... ```). This preserves the spacing and indentation, ensuring it looks like a clean, monospaced tree structure.
+
 .
 ├── public/               # Static assets (resume PDF, images, etc.)
 ├── src/
@@ -123,22 +124,39 @@ Generated code
 ├── tailwind.config.ts    # Tailwind CSS configuration
 └── ...
 
-🚢 Deployment
-This portfolio is deployed on Vercel, the platform built by the creators of Next.js.
+## 🚢 Deployment
+
+This portfolio is deployed on **Vercel**, the platform built by the creators of Next.js.
+
 To deploy your own version, follow these steps:
-Push your code to a GitHub repository.
-Sign up for a free account on Vercel.
-Import your project:
-Click on "Add New... -> Project" from your Vercel dashboard.
-Select your GitHub repository.
-Configure the project:
-Vercel will automatically detect that you are using Next.js and configure the build settings for you.
-You can add your environment variables in the "Environment Variables" section if needed.
-Deploy:
-Click the "Deploy" button. Your portfolio will be built and deployed. Vercel will automatically redeploy the site every time you push a change to your main branch.
-📬 Contact
-Abrar Hussain Dar - LinkedIn - abrardar988651@gmail.com
-Project Link: [https://github.com/[Your GitHub Username]/[your-repo-name]](https://github.com/[Your GitHub Username]/[your-repo-name])
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-```
+
+1.  **Push your code to a GitHub repository.**
+
+2.  **Sign up for a free account on [Vercel](https://vercel.com/).**
+
+3.  **Import your project from your Vercel dashboard:**
+    -   Click on "Add New... -> Project".
+    -   Select your GitHub repository.
+
+4.  **Configure the project:**
+    -   Vercel will automatically detect that you are using Next.js and configure the build settings for you.
+    -   You can add your environment variables in the "Environment Variables" section if needed.
+
+5.  **Deploy:**
+    -   Click the "Deploy" button.
+    -   Your portfolio will be built and deployed. Vercel will automatically redeploy the site every time you push a change to your main branch.
+
+---
+
+## 📬 Contact
+
+Abrar Hussain Dar
+- **Email:** [abrardar988651@gmail.com](mailto:abrardar988651@gmail.com)
+- **LinkedIn:** [linkedin.com/in/abrarhussain0366](https://linkedin.com/in/abrarhussain0366)
+- **Project Link:** [https://github.com/[Your GitHub Username]/[your-repo-name]](https://github.com/[Your GitHub Username]/[your-repo-name])
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for more details.
