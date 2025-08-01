@@ -13,6 +13,34 @@ export const skillsData = [
 
 export const projects = [
     {
+        title: "Tabeeb Medical Solutions",
+        subtitle: "Healthcare Made Simple",
+        period: "03/2025 – present",
+        description: "Built a SaaS healthcare platform using Next.js, Node.js, and PostgreSQL with authentication, Razorpay integration, and real-time video consultations.",
+        features: [
+            "Real-time video consultations via WebRTC & sockets",
+            "In-clinic/online appointment booking",
+            "Digital prescriptions & doctor-patient chat"
+        ],
+        link: "https://tabeeb.co.in",
+        tech: ["Next.js", "Node.js", "PostgreSQL", "Socket.IO", "Razorpay"],
+        metrics: { consultations: "200+", uptime: "99.9%", feedback: "4.7/5" }
+    },
+    {
+        title: "BillMatrix",
+        subtitle: "Effortless Invoicing & Payments",
+        period: "02/2025 – present",
+        description: "Built BillMatrix, a SaaS platform using Next.js, Node.js, and PostgreSQL for invoicing, subscriptions, and payments.",
+        features: [
+            "Role-based dashboards for invoice & inventory management",
+            "Integrated subscriptions and payment tracking",
+            "Revenue and invoice analytics module"
+        ],
+        link: "https://billmatrix.in",
+        tech: ["Next.js", "Node.js", "PostgreSQL", "Razorpay"],
+        metrics: { invoices: "1K+", accuracy: "99.95%", analytics: "Real-time" }
+    },
+    {
         title: "EcomMatrix",
         subtitle: "E-Commerce Dashboard",
         period: "02/2025 – present",
@@ -53,8 +81,10 @@ export const projects = [
         link: "https://yoursportz.in",
         tech: ["Node.js", "MongoDB", "Express", "JWT"],
         metrics: { bookings: "1000+", response: "150ms", satisfaction: "4.8/5" }
-    }
+    },
+
 ];
+
 
 export const experiences = [
     {
