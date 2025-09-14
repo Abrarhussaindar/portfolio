@@ -16,74 +16,139 @@ export const projects = [
         title: "Tabeeb Medical Solutions",
         subtitle: "Healthcare Made Simple",
         period: "03/2025 – present",
-        description: "Built a SaaS healthcare platform using Next.js, Node.js, and PostgreSQL with authentication, Razorpay integration, and real-time video consultations.",
+        description:
+            "Built a SaaS healthcare platform using Next.js, Node.js, and PostgreSQL with authentication, Razorpay integration, and real-time video consultations.",
         features: [
             "Real-time video consultations via WebRTC & sockets",
             "In-clinic/online appointment booking",
-            "Digital prescriptions & doctor-patient chat"
+            "Digital prescriptions & doctor-patient chat",
         ],
         link: "https://tabeeb.co.in",
         tech: ["Next.js", "Node.js", "PostgreSQL", "Socket.IO", "Razorpay"],
-        metrics: { consultations: "200+", uptime: "99.9%", feedback: "4.7/5" }
+        metrics: { consultations: "200+", uptime: "99.9%", feedback: "4.7/5" },
     },
     {
         title: "BillMatrix",
         subtitle: "Effortless Invoicing & Payments",
         period: "02/2025 – present",
-        description: "Built BillMatrix, a SaaS platform using Next.js, Node.js, and PostgreSQL for invoicing, subscriptions, and payments.",
+        description:
+            "Built BillMatrix, a SaaS platform using Next.js, Node.js, and PostgreSQL for invoicing, subscriptions, and payments.",
         features: [
             "Role-based dashboards for invoice & inventory management",
             "Integrated subscriptions and payment tracking",
-            "Revenue and invoice analytics module"
+            "Revenue and invoice analytics module",
         ],
         link: "https://billmatrix.in",
         tech: ["Next.js", "Node.js", "PostgreSQL", "Razorpay"],
-        metrics: { invoices: "1K+", accuracy: "99.95%", analytics: "Real-time" }
+        metrics: { invoices: "1K+", accuracy: "99.95%", analytics: "Real-time" },
     },
     {
         title: "EcomMatrix",
         subtitle: "E-Commerce Dashboard",
         period: "02/2025 – present",
-        description: "Built EcomMatrix, a SaaS-based e-commerce dashboard using Next.js, Node.js, TypeScript, and PostgreSQL.",
+        description:
+            "Built EcomMatrix, a SaaS-based e-commerce dashboard using Next.js, Node.js, TypeScript, and PostgreSQL.",
         features: [
             "Multi-tenant architecture with isolated data environments",
             "Real-time analytics and interactive dashboards",
-            "Performance optimization tools for businesses"
+            "Performance optimization tools for businesses",
         ],
         link: "#",
         tech: ["Next.js", "Node.js", "TypeScript", "PostgreSQL"],
-        metrics: { users: "500+", performance: "99.9%", growth: "+150%" }
+        metrics: { users: "500+", performance: "99.9%", growth: "+150%" },
     },
     {
         title: "HomeBasics",
         subtitle: "Water Purifier Store",
         period: "01/2025 – 02/2025",
-        description: "Engineered a Scalable MERN Application with secure authentication and optimized API performance.",
+        description:
+            "Engineered a Scalable MERN Application with secure authentication and optimized API performance.",
         features: [
             "Secure authentication system",
             "Cloud-based infrastructure deployment",
-            "Optimized API performance"
+            "Optimized API performance",
         ],
-        link: "#",
+        link: "https://homebasics.devmatrix.org",
         tech: ["MongoDB", "Express", "React", "Node.js"],
-        metrics: { uptime: "99.8%", speed: "2.1s", security: "A+" }
+        metrics: { uptime: "99.8%", speed: "2.1s", security: "A+" },
     },
     {
         title: "YourSportz",
         subtitle: "Local Football Arena",
         period: "04/2024 – present",
-        description: "Designed, developed, and maintained backend services and APIs using Node.js for optimal performance.",
+        description:
+            "Designed, developed, and maintained backend services and APIs using Node.js for optimal performance.",
         features: [
             "High-performance backend services",
             "Scalable API architecture",
-            "Real-time booking system"
+            "Real-time booking system",
         ],
         link: "https://yoursportz.in",
         tech: ["Node.js", "MongoDB", "Express", "JWT"],
-        metrics: { bookings: "1000+", response: "150ms", satisfaction: "4.8/5" }
+        metrics: { bookings: "1000+", response: "150ms", satisfaction: "4.8/5" },
     },
-
+    {
+        title: "ResumeMatrix",
+        subtitle: "AI Resume Builder",
+        period: "09/2025 – present",
+        description:
+            "Developed ResumeMatrix, an AI-powered resume optimization platform that generates ATS-friendly resumes and boosts job application success rates.",
+        features: [
+            "AI-powered resume scoring & optimization",
+            "ATS-friendly templates and parsing",
+            "Clerk-based authentication with role management",
+        ],
+        link: "https://resumematrix.devmatrix.org",
+        tech: ["Next.js", "Node.js", "PostgreSQL", "Clerk Auth", "AI APIs"],
+        metrics: { users: "50K+", rating: "4.9/5", interviews: "+300%" },
+    },
+    {
+        title: "ShopMatrix",
+        subtitle: "Modern E-Commerce Platform",
+        period: "09/2025 – present",
+        description:
+            "Built ShopMatrix, a sleek SaaS-based e-commerce solution offering seamless shopping, payments, and analytics.",
+        features: [
+            "Secure checkout with Razorpay integration",
+            "Real-time order tracking",
+            "Interactive analytics for sellers",
+        ],
+        link: "https://shopmatrix.devmatrix.org",
+        tech: ["Next.js", "Node.js", "PostgreSQL", "Razorpay"],
+        metrics: { orders: "10K+", uptime: "99.95%", engagement: "+200%" },
+    },
+    {
+        title: "Al-Nisa",
+        subtitle: "Premium Knitting Fabrics & Garments",
+        period: "09/2025 – present",
+        description:
+            "Built Al-Nisa, a digital fashion store for premium knitting fabrics and garments, handcrafted with elegance in Kashmir.",
+        features: [
+            "E-commerce platform for fabrics & garments",
+            "Multi-language SEO optimization",
+            "Clerk-based authentication & secure payments",
+        ],
+        link: "https://alnisa.devmatrix.org",
+        tech: ["Next.js", "Node.js", "PostgreSQL", "Clerk Auth", "Razorpay"],
+        metrics: { products: "500+", satisfaction: "4.8/5", reach: "Global" },
+    },
+    {
+        title: "Royal Paper Mache",
+        subtitle: "Premium Handcrafted Artistry",
+        period: "09/2025 – present",
+        description:
+            "Developed Royal Paper Mache, a premium brand website showcasing eco-friendly paper maché crafts that blend traditional Kashmiri artistry with modern elegance.",
+        features: [
+            "SEO-optimized branding and metadata",
+            "Clerk-based authentication & secure setup",
+            "Responsive UI with Next.js App Router",
+        ],
+        link: "https://royalpapermache.in",
+        tech: ["Next.js", "Clerk Auth", "PostgreSQL"],
+        metrics: { products: "200+", satisfaction: "4.9/5", reach: "Pan-India" },
+    },
 ];
+
 
 
 export const experiences = [
