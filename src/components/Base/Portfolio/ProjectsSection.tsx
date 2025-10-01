@@ -22,7 +22,7 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section id="projects" className="py-20 relative z-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+        <section id="projects" className="py-20 relative z-10 overflow-hidden">
             <div className="max-w-6xl mx-auto px-4">
                 <SectionTitle title="Featured Projects" />
 
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
                                     damping: 30
                                 }}
                             >
-                                <Card className="h-full flex flex-col hover:border-primary transition-colors duration-300 shadow-2xl border-2">
+                                <Card className={`h-full flex flex-col hover:border-primary transition-colors duration-300 shadow-2xl border-2 ${isActive ? 'border-white' : ''}`}>
                                     <CardHeader className="bg-gradient-to-br from-primary/10 to-primary/5 pb-6">
                                         <div className="flex items-start justify-between gap-2">
                                             <div className="flex-1">
@@ -128,7 +128,7 @@ const ProjectsSection = () => {
                                             ))}
                                         </div>
                                     </CardContent>
-                                    <CardFooter className="border-t pt-6 bg-gray-50/50">
+                                    <CardFooter className="border-t pt-6 ">
                                         <div className="grid grid-cols-3 gap-4 w-full text-center">
                                             {Object.entries(project.metrics).map(([key, value]) => (
                                                 <div key={key} className="flex flex-col items-center">
