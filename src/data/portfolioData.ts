@@ -156,7 +156,7 @@ export const experiences = [
         title: "Backend Developer",
         company: "Navrekh Technologies Pvt. Ltd.",
         location: "Pune, India",
-        period: "04/2024 – 05/2025",
+        period: "04/2024 – 07/2025",
         responsibilities: [
             "Developed and maintained high-performance, scalable backend services and APIs using Node.js",
             "Designed, implemented, and maintained SQL and NoSQL databases, ensuring data integrity and optimized performance"
