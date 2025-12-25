@@ -153,6 +153,16 @@ export const projects = [
 
 export const experiences = [
     {
+        title: "Full Stack Developer",
+        company: "Rehbar Post",
+        location: "Srinagar, India",
+        period: "12/2025 – Present",
+        responsibilities: [
+            "Expert in building scalable web applications using Next.js and React, focused on performance and clean architecture",
+            "Proficient in Node.js backend development, including APIs, databases, authentication, and core business logic"
+        ]
+    },
+    {
         title: "Backend Developer",
         company: "Navrekh Technologies Pvt. Ltd.",
         location: "Pune, India",

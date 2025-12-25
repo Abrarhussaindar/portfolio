@@ -45,10 +45,10 @@ const HeroSection = () => {
                     Abrar Hussain Dar
                 </motion.h1>
                 <motion.h2 variants={itemVariants} className="text-2xl md:text-3xl font-semibold mb-6 text-primary">
-                    Backend Developer
+                    Full Stack Developer
                 </motion.h2>
                 <motion.p variants={itemVariants} className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed text-muted-foreground">
-                    Crafting scalable, high-performance backend solutions with cutting-edge technologies. Specializing in Node.js, TypeScript, and cloud architectures.
+                    Crafting scalable, high-performance full stack solutions with cutting-edge technologies. Specializing in Next.js, React.js, Node.js, TypeScript, and cloud architectures.
                 </motion.p>
                 <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <Button asChild size="lg" className="w-full sm:w-auto">

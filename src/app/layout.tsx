@@ -20,10 +20,10 @@ const jetbrainsMono = JetBrains_Mono({
 // Define metadata for SEO
 export const metadata: Metadata = {
   title: {
-    default: "Abrar Hussain Dar - Backend Developer",
+    default: "Abrar Hussain Dar - Full Stack Developer",
     template: "%s | Abrar Hussain Dar - Full Stack Developer"
   },
-  description: "Experienced Backend Developer specializing in Node.js, TypeScript, and scalable web applications. Building high-performance systems with modern technologies including Next.js, React, MongoDB, and PostgreSQL.",
+  description: "Experienced Full Stack Developer specializing in Next.js, React.js Node.js, TypeScript, and scalable web applications. Building high-performance systems with modern technologies including Next.js, React, MongoDB, and PostgreSQL.",
   keywords: [
     "backend developer",
     "full stack developer",

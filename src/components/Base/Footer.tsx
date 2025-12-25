@@ -21,7 +21,7 @@ const Footer = () => {
                         >
                             Abrar Hussain Dar
                         </motion.div>
-                        <p className="mt-2 text-muted-foreground">Backend Developer & Technology Enthusiast</p>
+                        <p className="mt-2 text-muted-foreground">Full Stack Developer & Technology Enthusiast</p>
                     </div>
 
                     <div className="flex justify-center space-x-6 mb-8">
