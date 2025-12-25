@@ -19,10 +19,10 @@ const AboutSection = () => {
                         viewport={{ once: true }}
                     >
                         <h3 className="text-2xl font-semibold mb-6 text-primary">
-                            Passionate Backend Developer
+                            Passionate Full Stack Developer
                         </h3>
                         <p className="mb-6 leading-relaxed text-muted-foreground">
-                            Based in Bengaluru, India, I'm a dedicated backend developer with extensive experience
+                            Based in Bengaluru, India, I'm a dedicated full stack developer with extensive experience
                             in building scalable, high-performance applications. My expertise spans across modern
                             technologies including Node.js, TypeScript, and various database systems.
                         </p>
