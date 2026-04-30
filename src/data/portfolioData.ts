@@ -153,9 +153,9 @@ export const projects = [
 
 export const experiences = [
     {
-        title: "Full Stack Developer",
+        title: "Full Stack Developer (Part-Time)",
         company: "Altabeeb Healthcare PVT LTD",
-        location: "Srinagar, India",
+        location: "Bengaluru, India",
         period: "05/2025 – Current",
         responsibilities: [
             "Expert in building scalable web applications using Next.js and React, focused on performance and clean architecture",
