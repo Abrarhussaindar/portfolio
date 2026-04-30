@@ -154,9 +154,19 @@ export const projects = [
 export const experiences = [
     {
         title: "Full Stack Developer",
+        company: "Altabeeb Healthcare PVT LTD",
+        location: "Srinagar, India",
+        period: "05/2025 – Current",
+        responsibilities: [
+            "Expert in building scalable web applications using Next.js and React, focused on performance and clean architecture",
+            "Proficient in Node.js backend development, including APIs, databases, authentication, and core business logic"
+        ]
+    },
+    {
+        title: "Full Stack Developer",
         company: "Rehbar Post",
         location: "Srinagar, India",
-        period: "12/2025 – Present",
+        period: "12/2025 – 04/2026",
         responsibilities: [
             "Expert in building scalable web applications using Next.js and React, focused on performance and clean architecture",
             "Proficient in Node.js backend development, including APIs, databases, authentication, and core business logic"
